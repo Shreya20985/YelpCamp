@@ -34,7 +34,7 @@
         <div class="mb-3">
         <label class="form-label" for="price">Campground Price</label>
         <div class="input-group">
-        <span class="input-group-text" id="price-label">$</span>
+        <span class="input-group-text" id="price-label">₹</span>
         <input type="text" class="form-control" id="price" placeholder="0.00" aria-label="Username" aria-describedby="price-label" name="campground[price]" required>
          <div class="valid-feedback">
                 Looks good!
@@ -52,11 +52,14 @@
         </div>
        
         <div class="mb-3">
-            <button class="btn btn-success">Add Campground</button>
+           <div class="d-flex gap-2 align-items-center">
+    <button class="btn btn-success">Add Campground</button>
+    <a href="/campgrounds" class="btn btn-outline-secondary">← All Campgrounds</a>
+</div>
         </div>
         
     </form>
-    <a href="/campgrounds">All Campgrounds</a>
+    
     </div>
 </div>
 
